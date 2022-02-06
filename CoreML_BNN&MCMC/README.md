@@ -8,7 +8,7 @@
   of the neurons. Due to the randomness of the data, I did not include the normalization term as it was very close to 1 itself.
   <br>
   <br>
-  I trained the model on 10,000 training data. 2000 iterations of the Hastings algorithm. The best model selected gave about 84.4% on a testing data of fresh 1000 samples. I also tried to ensemble the predictions of all the accepted models. This gave an accuracy of around 83%
+  I trained the model on 10,000 training data. 2000 iterations of the Hastings algorithm. The best model selected gave about 84.4% on a testing data of fresh 1000 samples. The weights of this model were saved. I also tried to ensemble the predictions of all the accepted models. This gave an accuracy of around 83%
   This is considerably better than the base line set by the random sampler which gave 55% best model accuracy and 51.7% ensemble accuracy when trained under similar circumstances!
   <br>
   <br>
